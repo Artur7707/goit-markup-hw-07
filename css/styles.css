@@ -718,7 +718,7 @@ p {
   margin-top: 20px;
 }
 
-.modal-field-wrap {
+.modal__wrap {
   position: relative;
   margin-bottom: 10px;
 }
@@ -795,7 +795,7 @@ p {
   cursor: pointer;
 }
 
-.modal-field-wrap:hover .modal-icon {
+.modal__wrap:hover .modal-icon {
   fill: var(--accent-color);
 }
 
