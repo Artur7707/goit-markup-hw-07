@@ -384,13 +384,13 @@
             </li>
           </ul>
         </div>
-        <form class="footer-email">
+        <form class="email">
           <p class="footer-title">Подпишитесь на рассылку</p>
           <div class="footer-input-wrap">
-            <input type="email" name="email" class="footer-input" placeholder="E-mail" />
-            <button type="submit" class="hero__button input-button">
+            <input type="email" name="email" class="email__input" placeholder="E-mail" />
+            <button type="submit" class="hero__button email__button">
               Подписаться
-              <svg class="input-button-icon">
+              <svg class="email__button--icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -400,35 +400,35 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="button-modal" type="button" data-modal-close>
-          <svg class="modal-close-icon">
+        <button class="modal__button--close" type="button" data-modal-close>
+          <svg class="modal__button--icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
         <form>
-          <label for="user-name" class="modal-label">Имя</label>
+          <label for="user-name" class="modal__label">Имя</label>
           <div class="modal-field-wrap">
             <input type="text" id="user-name" class="modal-input" name="user-name" />
             <svg class="modal-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
-          <label for="user-tel" class="modal-label">Телефон</label>
+          <label for="user-tel" class="modal__label">Телефон</label>
           <div class="modal-field-wrap">
             <input type="tel" id="user-tel" class="modal-input" />
             <svg class="modal-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-phone-black"></use>
             </svg>
           </div>
-          <label for="user-mail" class="modal-label">Почта</label>
+          <label for="user-mail" class="modal__label">Почта</label>
           <div class="modal-field-wrap">
             <input type="email" id="user-mail" class="modal-input" />
             <svg class="modal-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
-          <label for="comments" class="modal-label">Комментарий</label>
+          <label for="comments" class="modal__label">Комментарий</label>
           <div class="modal-field-wrap">
             <textarea
               name="comments"
