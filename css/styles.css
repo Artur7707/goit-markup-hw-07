@@ -177,15 +177,19 @@ p {
 
 /* Features */
 
-.section.feature {
+.section.features {
   padding-bottom: 0;
 }
 
-.feature-list {
+.features__list {
   display: flex;
 }
 
-.feature-list .item::before {
+.features__list--item {
+  width: 270px;
+}
+
+.features__list--item::before {
   display: flex;
   content: '';
   margin-bottom: 30px;
@@ -195,6 +199,11 @@ p {
   background-position: center;
   background-color: var(--button-background);
 }
+
+.features__list--item:not(:last-child) {
+  margin-right: 30px;
+}
+
 
 .icon-antenna::before {
   background-image: url(../images/antenna.svg);
@@ -212,13 +221,7 @@ p {
   background-image: url(../images/astronaut.svg);
 }
 
-.feature-list .item:not(:last-child) {
-  margin-right: 30px;
-}
 
-.feature-list .item {
-  width: 270px;
-}
 
 /* Examples */
 
@@ -264,7 +267,7 @@ p {
     url(../images/hero-img.jpg);
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -275,7 +278,7 @@ p {
   color: var(--white);
 }
 
-.hero-button {
+.hero__button {
   display: inline-block;
   border-radius: 4px;
   min-width: 50px;
@@ -415,14 +418,14 @@ p {
 
 /* Fonts/colors index.html */
 
-.heading {
+.features__title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.heading-text {
+.features__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
