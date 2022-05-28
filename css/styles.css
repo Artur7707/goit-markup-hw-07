@@ -73,11 +73,11 @@ p {
 
 /* Logo */
 
-.logo {
+.logo__label {
   color: var(--accent-color);
 }
 
-.logo-link {
+.logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -85,9 +85,7 @@ p {
   color: #000000;
 }
 
-.logo-link:focus {
-  color: var(--main-text-color);
-}
+
 
 /*  Page Header */
 
@@ -96,14 +94,14 @@ p {
   background-color: var(--white);
 }
 
-.page-header {
+.header {
   padding: 24px 25px;
   border-bottom: 1px solid #c4c4c4;
 }
 
 /* Header-nav */
 
-.page-header__nav {
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -113,38 +111,38 @@ p {
   margin-left: 93px;
 }
 
-.site-nav .item {
+.site-nav__item {
   margin-right: 50px;
 }
 
-.site-nav .item:last-child {
+.site-nav__item:last-child {
   margin-right: 0;
 }
 
-.link-nav,
-.contact-link {
+.site-nav__link,
+.contacts__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.contact-link {
+.contacts__link {
   color: var(--secondary-text-color);
 }
 
-.contact-list {
+.contacts {
   display: flex;
   margin-left: auto;
   align-self: center;
 }
 
-.contact-list .item + .item {
+.contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
-.icon-mail,
-.icon-phone {
+.contacts--icon-mail,
+.contacts--icon-phone {
   display: inline-block;
   vertical-align: middle;
   fill: currentColor;
@@ -153,16 +151,16 @@ p {
   margin-right: 10px;
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
 
-.link-nav.current {
+.site-nav__link.current {
   position: relative;
 }
 
-.link-nav.current::after {
+.site-nav__link.current::after {
   content: '';
   width: 100%;
   display: flex;
@@ -172,8 +170,8 @@ p {
   bottom: -32px;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--accent-color);
 }
 
@@ -568,7 +566,7 @@ p {
   color: #ffffff;
 }
 
-.logo-link.footer {
+.logo.footer {
   display: inline-block;
   margin-top: 60px;
   margin-bottom: 20px;
