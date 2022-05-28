@@ -1,22 +1,22 @@
-.buttons {
+.filter {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
 
-.buttons .item:hover,
-.buttons .item:focus {
+.filter__item:hover,
+.filter__item:focus {
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
-.buttons .item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.btn {
+.filter__btn {
   display: inline-block;
   padding: 6px 22px;
   border-radius: 4px;
@@ -30,17 +30,17 @@
   border: none;
 }
 
-.btn.app {
+.filter__btn.app {
   width: 145px;
 }
 
-.btn.current {
+.filter__btn.current {
   background-color: var(--accent-color);
   color: var(--white);
 }
 
-.btn:hover,
-.btn:focus {
+.filter__btn:hover,
+.filter__btn:focus {
   background-color: var(--accent-color);
   cursor: pointer;
   color: var(--white);
