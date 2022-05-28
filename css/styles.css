@@ -558,11 +558,11 @@ p {
   display: inline-block;
 }
 
-.footer-nav .item {
+.footer-nav__item {
   margin-bottom: 9px;
 }
 
-.logo-footer {
+.logo__label--white {
   color: #ffffff;
 }
 
@@ -572,21 +572,20 @@ p {
   margin-bottom: 20px;
 }
 
-.adress {
+.footer-nav__adress {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
 }
 
-.footer-link,
-.footer-link {
+.footer-nav__link {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.social__link:hover,
+.social__link:focus {
   color: var(--white);
 }
 
@@ -621,7 +620,7 @@ p {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social__icon {
+.footer__icon {
   display: flex;
   width: 20px;
   height: 20px;
