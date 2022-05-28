@@ -584,8 +584,8 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.social__link:hover,
-.social__link:focus {
+.footer-nav__link:hover,
+.footer-nav__link:focus {
   color: var(--white);
 }
 
