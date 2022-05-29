@@ -1,6 +1,6 @@
 .hero {
   display: flex;
-  background-color: var(--background-color);
+  background-color: $main-bg-color;
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;
@@ -20,7 +20,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white-color;
 }
 
 .hero__button {
@@ -36,6 +36,6 @@
   letter-spacing: 0.06em;
   border: none;
   cursor: pointer;
-  color: var(--white);
-  background-color: var(--accent-color);
+  color: $white-color;
+  background-color: $accent-color;
 }

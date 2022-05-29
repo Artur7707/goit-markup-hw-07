@@ -1,5 +1,5 @@
 .footer {
-  background: var(--background-color);
+  background: $main-bg-color;
 }
 
 .footer-nav {
@@ -11,7 +11,7 @@
 }
 
 .logo__label--white {
-  color: #ffffff;
+  color: $white-color;
 }
 
 .logo.footer {
@@ -23,7 +23,7 @@
 .footer-nav__adress {
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff;
+  color: $white-color;
 }
 
 .footer-nav__link {
@@ -33,7 +33,7 @@
 
   &:hover,
   &:focus {
-    color: var(--white);
+    color: $white-color;
   }
 }
 
@@ -57,7 +57,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white-color;
 }
 
 .footer-social__item {
@@ -83,5 +83,5 @@
   width: 20px;
   height: 20px;
   justify-items: center;
-  fill: var(--white);
+  fill: $white-color;
 }

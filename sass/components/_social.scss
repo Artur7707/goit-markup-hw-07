@@ -13,11 +13,11 @@
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  fill: var(--icon-color);
+  fill: $icon-color;
 
   &:hover,
   &:focus {
-    fill: var(--white);
+    fill: $white-color;
     background-color: $accent-color;
   }
 }
