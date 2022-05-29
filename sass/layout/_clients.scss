@@ -20,8 +20,8 @@
 
   &:hover,
   &:focus {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
+    border-color: $accent-color;
+    fill: $accent-color;
   }
 }
 

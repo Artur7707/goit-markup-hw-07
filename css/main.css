@@ -1,15 +1,5 @@
-:root {
-  --main-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --button-background: #f5f4fa;
-  --white: #ffffff;
-  --background-color: #2f303a;
-  --icon-color: #afb1b8;
-}
-
 body {
-  color: var(--main-text-color);
+  color: #212121;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
@@ -76,7 +66,7 @@ p {
 }
 
 .logo__label {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .logo {
@@ -119,11 +109,11 @@ p {
 }
 
 .contacts__link {
-  color: var(--secondary-text-color);
+  color: #757575;
 }
 
 .contacts__link:hover, .contacts__link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .contacts {
@@ -148,7 +138,7 @@ p {
 
 .site-nav__link:hover,
 .site-nav__link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav__link.current {
@@ -159,7 +149,7 @@ p {
   content: '';
   width: 100%;
   display: flex;
-  border-bottom: 4px solid var(--accent-color);
+  border-bottom: 4px solid #2196f3;
   border-radius: 2px;
   position: absolute;
   bottom: -32px;
@@ -203,7 +193,7 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--secondary-text-color);
+  color: #757575;
 }
 
 .icon-antenna::before {
@@ -297,7 +287,7 @@ p {
 
 .filter__item:hover,
 .filter__item:focus {
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
@@ -310,7 +300,7 @@ p {
   display: inline-block;
   padding: 6px 22px;
   border-radius: 4px;
-  color: var(--main-text-color);
+  color: #212121;
   background-color: var(--button-background);
   font-family: inherit;
   font-weight: 500;
@@ -325,12 +315,12 @@ p {
 }
 
 .filter__btn.current {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   color: var(--white);
 }
 
 .filter__btn:hover, .filter__btn:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   cursor: pointer;
   color: var(--white);
 }
@@ -373,7 +363,7 @@ p {
 .portfolio__text {
   font-size: 16px;
   line-height: 1.88;
-  color: var(--secondary-text-color);
+  color: #757575;
 }
 
 .portfolio__hidden {
@@ -424,7 +414,7 @@ p {
 
 .social__link:hover, .social__link:focus {
   fill: var(--white);
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .social__icon {
@@ -469,7 +459,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  color: var(--secondary-text-color);
+  color: #757575;
   margin-bottom: 16px;
 }
 
@@ -495,8 +485,8 @@ p {
 }
 
 .clients__link:hover, .clients__link:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+  border-color: #2196f3;
+  fill: #2196f3;
 }
 
 .client__icon {
@@ -580,7 +570,7 @@ p {
 }
 
 .footer-social__link:hover {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .footer-social__icon {
@@ -645,7 +635,7 @@ p {
 
 .modal__button--close:hover .modal__button--icon {
   cursor: pointer;
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .modal__title {
@@ -661,7 +651,7 @@ p {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--secondary-text-color);
+  color: #757575;
   margin-bottom: 4px;
 }
 
@@ -684,7 +674,7 @@ p {
 }
 
 .modal__input:hover, .modal__input:focus {
-  border-color: var(--accent-color);
+  border-color: #2196f3;
   cursor: pointer;
 }
 
@@ -706,7 +696,7 @@ p {
 }
 
 .modal-text:hover, .modal-text:focus {
-  border-color: var(--accent-color);
+  border-color: #2196f3;
 }
 
 .modal-text::placeholder {
@@ -722,14 +712,14 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: #757575;
 }
 
 .modal-check__text span {
   margin-right: 8px;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--main-text-color);
+  border: 2px solid #212121;
   border-radius: 2px;
   display: flex;
 }
@@ -737,20 +727,20 @@ p {
 .modal-check__text a {
   margin-left: 5px;
   text-decoration: underline;
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .modal-check:checked + .modal-check__text span {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   border: none;
 }
 
 .modal__wrap:hover .modal__icon {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .modal__input:focus + .modal__icon {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .modal__btn {

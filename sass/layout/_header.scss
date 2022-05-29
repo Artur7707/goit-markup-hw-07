@@ -30,11 +30,11 @@
 }
 
 .contacts__link {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
@@ -60,7 +60,7 @@
 
 .site-nav__link:hover,
 .site-nav__link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav__link.current {
@@ -70,7 +70,7 @@
     content: '';
     width: 100%;
     display: flex;
-    border-bottom: 4px solid var(--accent-color);
+    border-bottom: 4px solid $accent-color;
     border-radius: 2px;
     position: absolute;
     bottom: -32px;

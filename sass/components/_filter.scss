@@ -6,7 +6,7 @@
 
 .filter__item:hover,
 .filter__item:focus {
-  background: var(--accent-color);
+  background: $accent-color;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -20,7 +20,7 @@
   display: inline-block;
   padding: 6px 22px;
   border-radius: 4px;
-  color: var(--main-text-color);
+  color: $main-text-color;
   background-color: var(--button-background);
   font-family: inherit;
   font-weight: 500;
@@ -33,13 +33,13 @@
   }
 
   &.current {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     color: var(--white);
   }
 
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     cursor: pointer;
     color: var(--white);
   }
