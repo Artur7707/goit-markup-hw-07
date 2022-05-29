@@ -44,15 +44,3 @@
     color: var(--white);
   }
 }
-
-.filter__btn.current {
-  background-color: var(--accent-color);
-  color: var(--white);
-}
-
-.filter__btn:hover,
-.filter__btn:focus {
-  background-color: var(--accent-color);
-  cursor: pointer;
-  color: var(--white);
-}

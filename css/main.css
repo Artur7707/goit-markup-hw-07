@@ -259,8 +259,7 @@ p {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero-img.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg);
 }
 
 .hero__title {
@@ -300,8 +299,7 @@ p {
 .filter__item:hover,
 .filter__item:focus {
   background: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -332,20 +330,7 @@ p {
   color: var(--white);
 }
 
-.filter__btn:hover,
-.filter__btn:focus {
-  background-color: var(--accent-color);
-  cursor: pointer;
-  color: var(--white);
-}
-
-.filter__btn.current {
-  background-color: var(--accent-color);
-  color: var(--white);
-}
-
-.filter__btn:hover,
-.filter__btn:focus {
+.filter__btn:hover, .filter__btn:focus {
   background-color: var(--accent-color);
   cursor: pointer;
   color: var(--white);
@@ -370,8 +355,7 @@ p {
 }
 
 .portfolio__item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio__item img {
@@ -439,21 +423,16 @@ p {
   fill: var(--icon-color);
 }
 
+.social__link:hover, .social__link:focus {
+  fill: var(--white);
+  background-color: var(--accent-color);
+}
+
 .social__icon {
   display: flex;
   width: 20px;
   height: 20px;
   justify-items: center;
-}
-
-.social__link:hover,
-.social__link:focus {
-  fill: var(--white);
-  background-color: var(--accent-color);
-}
-
-.section.team {
-  background-color: var(--button-background);
 }
 
 .team {
@@ -464,12 +443,15 @@ p {
 .team__card {
   text-align: center;
   background: var(--white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .container.team {
+  background-color: var(--button-background);
+}
+
+.section.team {
   background-color: var(--button-background);
 }
 
@@ -490,11 +472,6 @@ p {
   line-height: 1.19;
   color: var(--secondary-text-color);
   margin-bottom: 16px;
-}
-
-.clients h2 {
-  margin-bottom: 50px;
-  text-align: center;
 }
 
 .clients {
@@ -518,8 +495,7 @@ p {
   fill: var(--icon-color);
 }
 
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -709,6 +685,11 @@ p {
   border-radius: 4px;
 }
 
+.modal__input:hover, .modal__input:focus {
+  border-color: var(--accent-color);
+  cursor: pointer;
+}
+
 .modal__icon {
   position: absolute;
   left: 12px;
@@ -726,8 +707,7 @@ p {
   border-radius: 4px;
 }
 
-.modal-text:hover,
-.modal-text:focus {
+.modal-text:hover, .modal-text:focus {
   border-color: var(--accent-color);
 }
 
@@ -765,12 +745,6 @@ p {
 .modal-check:checked + .modal-check__text span {
   background-color: var(--accent-color);
   border: none;
-}
-
-.modal__input:hover,
-.modal__input:focus {
-  border-color: var(--accent-color);
-  cursor: pointer;
 }
 
 .modal__wrap:hover .modal__icon {
