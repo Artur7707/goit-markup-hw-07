@@ -126,8 +126,7 @@ p {
   margin-left: 50px;
 }
 
-.contacts--icon-mail,
-.contacts--icon-phone {
+.contacts__link-icon {
   display: inline-block;
   vertical-align: middle;
   fill: currentColor;
